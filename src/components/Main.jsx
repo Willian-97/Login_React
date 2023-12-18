@@ -10,7 +10,6 @@ const Main = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         alert('Enviado com Sucesso')
-        console.log(name, email, tel, password);
     }
 
     const handleName = (e) => {
